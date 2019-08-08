@@ -5,7 +5,9 @@
  <form action="{% url 'learning_logs:new_topic' %}" method = 'post'>
      {% csrf_token %}
      {{ form.as_p}}
-     <button name = "submit">Add topic</button>
+     {% buttons %}
+         <button name="submit" class="btn btn-primary">Add topic</button>
+       {% endbuttons %}
 
 
  </form>
