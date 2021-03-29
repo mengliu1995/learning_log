@@ -28,7 +28,7 @@ protobuf==3.9.1
 psycopg2==2.7
 ptyprocess==0.6.0
 pygame==1.9.6
-Pygments==2.3.1
+Pygments==2.7.4
 pylint==2.3.1
 python-dateutil==1.5
 pytz==2019.2
